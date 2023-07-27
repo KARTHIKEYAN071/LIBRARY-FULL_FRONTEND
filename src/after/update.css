@@ -1,0 +1,19 @@
+.formm
+{
+    margin-left: 70%;
+    margin-bottom: 60%;
+    position: absolute;
+    color:rgb(59, 59, 242);
+    background-color: rgba(211,211,219,255);
+    
+}
+.mainin{
+    background-image:url('wall9.jpg');
+    background-position: center;
+  background-size: cover;
+    width: 28.19cm;
+    border: none; 
+    height: 20cm;
+    position: fixed;
+
+}

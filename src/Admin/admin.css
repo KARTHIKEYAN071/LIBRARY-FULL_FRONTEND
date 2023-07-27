@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* *{
+	
+} */
+
+body{
+	background: rgb(240, 236, 236);
+	/* background-image: url(admin2.png);
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-size: cover; */
+
+	
+}
+
+.wrapper .sidebarad{
+	background: rgb(5, 68, 104);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 225px;
+
+	height: 100%;
+	padding: 20px 0;
+	transition: all 0.5s ease;
+	margin-left:-225px;
+}
+
+.wrapper .sidebarad .profilee{
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.wrapper .sidebarad .profilee img{
+	display: block;
+	width: 100px;
+	height: 100px;
+    border-radius: 50%;
+	margin: 0 auto;
+}
+
+.wrapper .sidebarad .profilee h3{
+	color: #ffffff;
+	/* margin: 10px 0 5px; */
+}
+
+.wrapper .sidebarad .profilee p{
+	color: rgb(206, 240, 253);
+	font-size: 14px;
+}
+
+.wrapper .sidebarad ul li a{
+	display: block;
+	padding: 13px 30px;
+	border-bottom: 1px solid #10558d;
+	color: rgb(241, 237, 237);
+	font-size: 16px;
+	position: relative;
+}
+
+.wrapper .sidebarad ul li a .icon{
+	color: #dee4ec;
+	display: inline-block;
+}
+
+ 
+
+.wrapper .sidebarad ul li a:hover,
+.wrapper .sidebarad ul li a.active{
+	color: #0c7db1;
+
+	background:white;
+    border-right: 2px solid rgb(5, 68, 104);
+}
+
+.wrapper .sidebarad ul li a:hover .icon,
+.wrapper .sidebarad ul li a.active .icon{
+	color: #0c7db1;
+}
+
+.wrapper .sidebarad ul li a:hover:before,
+.wrapper .sidebarad ul li a.active:before{
+	display: block;
+}
+
+.wrapper .section{
+	width: calc(100%);
+	margin-left: 0px;
+	transition: all 0.5s ease;
+}
+
+.wrapper .section .top_navbar{
+	background: rgb(7, 105, 185);
+	height: 50px;
+	display: flex;
+	align-items: center;
+	padding: 0 30px;
+	/* display: none; */
+ 
+}
+
+.wrapper .section .top_navbar .hamburgerr a{
+	font-size: 28px;
+	color: #f4fbff;
+}
+select{
+	border: none;
+    width: 4cm;
+}
+
+.wrapper .section .top_navbar .hamburgerr a:hover{
+	color: #a2ecff;
+}
+
+ .wrapper .section .containerr{
+	margin: 0px;
+	background: #fff;
+	padding: 0px;
+	line-height: 28px;
+}
+
+body .active .wrapper .sidebarad{
+	left: -225px;
+}
+
+body .active .wrapper .section{
+	margin-left: 0;
+	width: 100%;
+}
+.containerr #peoplecon{
+	display: none;
+}
+.containerr #addbookcon
+{
+	display: none;
+}
+.containerr #updatebookcon
+{
+	display: none;
+}
+.containerr #deletebookcon{
+	display: none;
+}
+#reports{
+display: none;
+}
+.background{
+	background-image: url(admin2.png);
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	/* display: none; */
+}
+.sidebarad ul{
+	cursor: pointer;
+}

@@ -1,0 +1,85 @@
+.deletebok{
+    width: 18cm;
+    height: 10cm;
+    /* background-color: rgba(173, 255, 80, 0.9); */
+    background: rgba(5, 68, 104,.5);
+    box-shadow: 6px 6px black;
+    position: absolute;
+    border-radius:25px;
+    margin-left: 8cm;
+    margin-top: 4cm;
+}
+.deltxt1{
+    font-size: 35px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;  
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: .3cm;
+    padding-top: .3cm;
+    border-bottom: 5px solid;
+    
+}
+.nterroll1{
+    border-radius: 10px;
+    border: 2px solid;
+    background: transparent;
+    width: 7.5cm;
+    box-shadow: 3px 3px black;
+    height: 1cm;
+    margin-left: 6.2cm;
+    margin-top: -.9cm;
+    position: absolute;
+}
+.nterpass1{
+    border-radius: 10px;
+    border: 2px solid;
+    background: transparent;
+    width: 7.5cm;
+    box-shadow: 3px 3px black;
+    height: 1cm;
+    margin-left: 6.2cm;
+    margin-top: -.9cm;
+    position: absolute;
+}
+.nterroll1:focus,.nterpass1:focus{
+    background-color: white;
+    width:8cm;
+
+}
+.okbtn1{
+    width: 6cm;
+    height: 1.3cm;
+    font-size: xx-large;
+    margin-left: 2cm;
+    background-color: rgb(233, 233, 233);
+    margin-top: 1.7cm;
+    border: none;
+    border-radius: 17px;
+    font-weight: 700;
+    
+}
+.clsbtn41{
+    width: 6cm;
+    height: 1.3cm;
+    border: none;
+    border-radius: 17px;
+    font-size: xx-large;
+    margin-left: 1cm;
+    font-weight: 700;
+    background-color: red;
+    margin-top: .5cm;
+}
+.nterroll1::placeholder,.nterpass1::placeholder{
+    font-size: 20px;
+    color:white;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: .2cm;
+}
+.proll1,.ppass1{
+    font-size:20px;
+    font-weight: 700;
+    margin-left: 2.3cm;
+    margin-top: .7cm;
+    width: 4.1cm;
+}

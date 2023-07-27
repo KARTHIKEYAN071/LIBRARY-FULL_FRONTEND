@@ -1,0 +1,89 @@
+.makeflx{
+    display: flex;
+    border: 2px solid;
+    width: 30cm;
+    margin-top: .5cm;
+    border-radius: 50px;
+    background-color: rgb(198, 96, 23);
+}
+.makeflx::placeholder{
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+#date{
+    color: white;
+    text-align: center;
+    font-size: x-large;
+}
+.makeflx[type="text"]{
+    height: 1cm;
+}
+.makeflx[type="text"]:focus{
+        background: white;
+        color: blue;
+        font-size: x-large;
+        border-radius: 0%;
+}
+.makeflx[type="date"]{
+    height: 1cm;
+}
+
+.makeflx p{
+   font-size: xx-large;
+   width: 15cm;
+   /* background-color: aqua; */
+   border-top-left-radius: 50px;
+   border-bottom-left-radius: 50px;
+   text-align: center;
+   color:white;
+}
+.radio{
+    /* font-size: 30px; */
+    height: .5cm;
+    width: .5cm;
+    margin-top: .3cm;
+    margin-left: .3cm;
+}
+.feedbackform{
+    margin-top: -4cm;
+    background: rgba(0,0,0,.7);
+    width: 100%;
+    height: 19cm;
+    /*border-radius: 100px;*/
+    position: relative;
+}
+.feedbtn1{
+    width: 6cm;
+    height: 1.5cm;
+    border: none;
+    background: blue;
+    color: white;
+    font-size: x-large;
+    margin-top: .7cm;
+    border-radius: 30px;
+    box-shadow: 5px 5px black;
+}
+.feedbtn2{
+    width: 6cm;
+    height: 1.5cm;
+    border: none;
+    background: red;
+    margin-left: 19cm;
+    color: white;
+    font-size: x-large;
+    margin-top: .7cm;
+    border-radius: 30px;
+    box-shadow: 5px 5px black;
+}
+.camndiv{
+    margin-top: 1cm;
+    margin-left: 5cm;
+}
+.h22{
+    text-align: center;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xxx-large;
+    margin-left: -3cm;
+}

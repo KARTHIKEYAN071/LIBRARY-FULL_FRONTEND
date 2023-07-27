@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+.top1{
+    display: flex;
+    width: 100%;
+    height: 2cm;
+    background-color: rgba(242,242,242,255);
+    align-items: center;
+    /* position: absolute; */
+}
+.con1{
+    font-size: 70px;
+    font-weight: 700;
+    margin-left: 33.9%;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.ion1
+{
+    
+    padding:10px;
+    color:black;
+    margin-left: 970.15%;
+    cursor: pointer;
+    border-radius: 100px;
+    
+}
+.ion1:hover{
+    background-color: red;
+    color: white;
+
+}
+.aboutmid{
+    width: 100%;
+    height:17.7cm;
+    background-color:rgba(124,144,179,255);
+    position: absolute;
+}
+.leoo{
+    margin-left: 1cm;
+}
+.nullclr{
+    background-color: rgba(99,113,136,255);
+    width: 20cm;
+    height: 10.45cm;
+    /* border-radius: 30px; */
+    margin-top: -10.5cm;
+    margin-left: 4cm;
+}
+.aboutimg{
+    width:10cm;
+    height: 15cm;
+    background-color: rgb(167, 163, 163);
+    margin-left: 6cm;
+    position: relative;
+    margin-top: .5cm;
+}
+.abouttxt{
+    width:17cm;
+    height: 16.5cm;
+    background-color:white;
+    position: relative;
+    margin-left: 19cm;
+    margin-top: -15cm;
+}
+.ahead{padding-top: 2cm;
+    margin-left: 1cm;
+    font-size: 70px;
+    font-weight:800;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* letter-spacing: .2cm; */
+    /* text-align: center; */
+}
+.abtcon{
+    font-size: xx-large;
+    padding-top: .8cm;
+    padding-left: 1cm;
+    padding-right: 1cm;
+}
+.abtbut{
+    font-size: x-large;
+    letter-spacing: .2cm;
+    border:none;
+    padding: .3cm;
+    background-color: rgba(99,113,136,255);
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px black;
+}
+.abtbut:hover{
+    background-color: orangered;
+}
+.aboutbot{
+    padding-top: 1cm;
+    padding-left: 1.2cm;
+}

@@ -1,0 +1,351 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    width: 100%;
+    height: 3.5cm;
+    background-color:burlywood ;
+    position: fixed;
+}
+.leo{
+    margin-left: 1cm;
+}
+.tele{
+    margin-left: 19.5cm;
+    margin-top: -3.3cm;
+}
+.mail{
+    margin-left: 20.2cm;
+    margin-top: -.7cm;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.email{
+    margin-left: 19.2cm;
+    margin-top: -0.9cm;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.callicon{
+    margin-left: 27cm;
+    margin-top: -1.3cm;
+}
+.call{
+    margin-left: 27.7cm;
+    margin-top: -.7cm;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.num{
+    margin-left: 26.7cm;
+    margin-top: -0.9cm;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.navigation
+{
+    background-color:rgba(26, 27, 27,.4);
+    width: 73%;
+    height: 1.5cm;
+    margin-left: 15%;
+    margin-top: .5cm;
+    border-radius: 30px;
+
+}
+.navigation ul{
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.navigation li{
+    font-size:15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;  
+}
+.navigation button{
+    margin-left: 1cm;
+    margin-top: 0cm;
+    background: transparent;
+    border: none;
+}
+.searchbar{
+    width: 380px;
+    float: left;
+    margin-left: 1000px;
+    margin-top: -1.1cm;
+    color:white;
+  }
+  .srchin{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;  
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid wheat;
+    border-right: none;
+    margin-top: 13px;
+    font-size: 16px;
+    float:left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    color:white;
+    
+  }
+  .srchbtn{
+    width: 100px;
+    height: 40px;
+    background:black;
+    border: 1px solid wheat;
+    border-left: none;
+    margin-top: 13px;
+    color:white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.srchbtn:focus{
+    outline: none;
+}
+.srchin:focus{
+    outline: none;
+}
+  .loginbtn
+  {
+      margin-left: 35cm;
+      margin-top: -3cm;
+      width: 3.3cm;
+      height: 1cm;
+      background-color: orangered;
+      box-shadow: 3px 3px black;
+      cursor: pointer;
+      border-radius: 70px;
+      padding: 8px;
+      box-shadow: 5px 5px #837d7d;
+    }
+    .loginbtn{
+    display: flex;
+    align-items: center;
+  }
+  .lock{
+    margin-top: .19cm;
+    margin-left: .3cm;
+}
+.loginbtn button {
+    background: transparent;
+    border: none;
+    color:wheat;
+    font-size: 20px;
+    margin-left: .2cm;
+    font-weight:600;
+}
+.middle{
+    width: 100%;
+    height: 17cm;
+    background-position: center;
+    background-size:cover;
+    padding-top: 3cm; 
+    margin-right: 0;
+    /* position: fixed; */
+    /* background-color: chartreuse;  */
+    
+}
+#slideshow {
+    overflow: hidden;
+    width: 100%;
+    height:15cm;
+    
+    }
+     .slide {
+    float: left;
+    height:1000px;
+    width: 100%;
+    
+    }
+   
+    .slide-wrapper {
+    
+    width: calc(100% * 8);
+    display: flex;
+    animation: slide 60s ease infinite;
+    }
+   
+    @keyframes slide {
+    10% {
+      margin-left: 0px;
+    }
+    
+    20% {
+      margin-left: calc(-100% * 1);
+    }
+    
+    30% {
+      margin-left: calc(-100% * 2);
+    }
+    
+    40% {
+      margin-left: calc(-100%* 3);
+    }
+    50% {
+      margin-left: calc(-100% * 4);
+    }
+    60% {
+      margin-left: calc(-100% * 5);
+    }
+    70% {
+      margin-left: calc(-100% *6);
+    }
+    80% {
+      margin-left: calc(-100% *7);
+    }
+    }
+.footer{
+    height: 6.9cm;
+    width: 100%;
+    background-color:burlywood;
+    margin-top: -2cm;
+    /* position: fixed; */
+}
+.footer .karthi{
+    margin-left: 15.5cm;
+}
+.footer .copy
+{
+      margin-left: 17cm;
+      margin-top: .7cm;
+      color: black;
+      font-size: 20px;
+      font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    }
+    .but{
+        margin-left: 12cm;
+        margin-top: .8cm;
+        display: flex;
+        margin-top: .7cm;
+    }
+    .bottxt1{
+        margin-left: 3.5cm;
+        font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    }
+    .bottxt1:hover,.bottxt2:hover,.bottxt3:hover{
+        font-size: 18px;
+        font-weight: 600;
+        font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    }
+    .bottxt2{
+        margin-left: 1cm;
+        font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    }
+    .bottxt3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    margin-left: 1cm;
+}
+.or{
+    margin-left: 0.9cm;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+}
+.or2{
+    margin-left: 1cm;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+}
+.logotxt{
+    display: flex;
+    margin-left: 1cm;
+}
+.k{
+    margin-top: 1cm;
+    background-color: black;
+    font-size: 30px;
+    font-weight: 800;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: .5cm;
+    padding: 15px; 
+    border-top-left-radius:13px ;
+    border-top-right-radius: 13px;
+    border-bottom-left-radius:23px ;
+    border-bottom-right-radius: 23px;
+    color:white;
+}
+.a{
+    margin-top: 1cm;
+    background-color: yellow;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    margin-left: 3px;
+    padding: 15px; 
+    font-size: 33px;
+    font-weight: 800;
+    border-top-left-radius:23px ;
+    border-top-right-radius: 23px;
+    border-bottom-left-radius:13px ;
+    border-bottom-right-radius: 13px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: .5cm;
+    
+}
+.r{
+    margin-top: 1cm;
+    
+    background-color: black;
+    color: white;
+    margin-left: 3px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    padding: 15px;
+    font-size: 33px;
+    font-weight: 800;
+    border-top-left-radius:13px ;
+    border-top-right-radius:13px;
+    border-bottom-left-radius:23px ;
+    border-bottom-right-radius: 23px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: .5cm;
+}
+.t{
+    margin-top: 1cm;
+    background-color: yellow;
+    color: black;
+    margin-left: 3px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    padding: 15px;
+    font-size: 33px;
+    font-weight: 800;
+    border-top-left-radius:23px ;
+    border-top-right-radius: 23px;
+    border-bottom-left-radius:13px ;
+    border-bottom-right-radius: 13px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: .5cm;
+}
+.h{
+    
+    background-color:black;
+    color: white;
+    margin-left: 3px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    margin-top: 1cm;
+    padding: 15px;
+    font-size: 33px;
+    font-weight: 800;
+    border-top-left-radius:13px ;
+    border-top-right-radius:13px;
+    border-bottom-left-radius:23px ;
+    border-bottom-right-radius: 23px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: .5cm;
+}
+.i{
+    background-color: yellow;
+    padding-top: .5cm; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    margin-left: 3px;
+    padding: 18px;
+    margin-top: 1cm;
+    font-size: 33px;
+    font-weight: 800;
+    border-top-left-radius:23px ;
+    border-top-right-radius: 23px;
+    border-bottom-left-radius:13px ;
+    border-bottom-right-radius: 13px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.homeicon{
+    margin-top: .5cm;
+    margin-left: 17cm;
+}

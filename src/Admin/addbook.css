@@ -1,0 +1,69 @@
+.addbookform {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .addbookform form {
+    background:none;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    margin-top: 15cm;
+    margin-left: -5cm;
+  }
+  
+  .addbookform label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .addbookform input,
+  .addbookform textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+ .addbookform button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .addbookform button:hover {
+    background-color: #0056b3;
+  }
+  
+  .addbookform button:focus {
+    outline: none;
+  }
+  
+  /* Additional styles to improve accessibility and form layout */
+  .addbookform form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .addbookform input:focus,
+  .addbookform textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Media query to make the form responsive on smaller screens */
+  @media screen and (max-width: 500px) {
+    .addbookform form {
+      width: 100%;
+    }
+  }

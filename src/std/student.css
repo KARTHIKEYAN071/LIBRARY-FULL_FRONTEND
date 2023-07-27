@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: auto;
+}
+.body1{
+    width: 100%;
+    background-position:center;
+    background-size: cover;
+    height: 150dvh;
+    background-attachment: fixed;
+    background-color: rgb(144, 193, 71);
+}
+.budy h3{
+    background-color: burlywood;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.logo{
+    
+    background-image: url('book1.1.png'); 
+    height:262px;
+    background-position:center;
+    background-size: cover;
+    /* background-color: red; */
+    background-repeat: no-repeat;
+    /* position:fixed; */
+    width: 192px;
+    margin-left: 2cm;
+   
+
+}
+.gallery{
+    cursor: pointer;
+            border: none;
+            width: 300px;
+            float:left;
+            background:transparent;
+            color:white;
+             margin-left:1.5cm;
+           margin-top: 40PX;
+            /* justify-content: center; */
+            border-radius: 20px;
+            font-size: 13px;
+}
+.gallery:hover{
+    font-size: 13px;
+                color: red;
+               border: none;
+             background-color: rgba(221, 216, 209, 0.5); 
+}
+.desc{
+    color: red;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    /* margin-left: 1.5cm; */
+    text-align: center;
+    background-color: black;
+    border-radius: 95px;
+    font-weight: bold;
+}
+.desc:hover{
+background-color: white;
+}
+.aa{
+    margin-left: 1.5cm;
+}
+#searchbar{
+    margin-left: 15%;
+    padding:15px;
+    border-radius: 80px;
+    background: black;
+    color:white;
+    width: 70%;
+  }
+  #searchbar:focus{
+    background-color: white;
+    color: black;
+  }

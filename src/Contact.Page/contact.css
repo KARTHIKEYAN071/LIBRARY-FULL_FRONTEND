@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+.top{
+    display: flex;
+    width: 100%;
+    height: 3cm;
+    background-color: burlywood;
+    align-items: center;
+    /* position: fixed; */
+}
+.con{
+    font-size: 70px;
+    font-weight: 700;
+    margin-left: 43%;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.ion
+{
+    
+    padding:20px;
+    color:white;
+    margin-left: 600.15%;
+    cursor: pointer;
+    border-radius: 100px;
+    
+}
+.ion:hover{
+    background-color: red;
+
+}
+.mid{
+    display: flex;
+    width: 100%;
+    /* position: fixed; */
+    height: 10cm;
+    background-color: burlywood;
+    /* border: 6px solid black; */
+    height: 16.7cm;
+}
+.slideimg{
+    width: 60%;
+    height: 16.7cm;
+    margin: 0;
+}
+.mess{
+    background-image: linear-gradient(white,rgb(95, 93, 93));
+    width: 40%;
+    height: 16.7cm;
+}
+#slideshow1 {
+    overflow: hidden;
+    width: 100%;
+    height:16.7cm;
+    margin-left: 0;
+    
+}
+     .slide1 {
+         float: left;
+         height:16.7cm;
+         width: 100%;
+         
+        }
+   
+        .slide-wrapper1 {
+            
+            width: calc(100% * 8);
+            display: flex;
+            animation: slide1 80s ease infinite;
+        }
+   
+        @keyframes slide1 {
+            10% {
+                margin-left: 0px;
+            }
+            
+            20% {
+                margin-left: calc(-100% * 1);
+            }
+            
+            30% {
+                margin-left: calc(-100% * 2);
+    }
+    
+    40% {
+        margin-left: calc(-100%* 3);
+    }
+    50% {
+      margin-left: calc(-100% * 4);
+    }
+    60% {
+      margin-left: calc(-100% * 5);
+    }
+    70% {
+        margin-left: calc(-100% *6);
+    }
+    80% {
+        margin-left: calc(-100% *7);
+    }
+}
+.chead{
+    display: flex;
+    align-items: center;
+    margin-left: 5cm;
+}
+.messp{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: .3cm;
+    border-bottom: 2px solid;
+}
+.add{
+    display: flex;
+    margin-top: 1cm;
+}
+.addicon{
+    margin-left: 1cm;
+}
+.addtxt{
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.giveadd{
+    margin-top: 1cm;
+    margin-left: -2cm;
+}
+.giveadd2{
+    margin-top: 1cm;
+    margin-left: -3.5cm;
+}
+.maill{
+    margin-top: 5.5cm;
+    margin-left: -15.3cm;
+    display: flex;
+}
+.calll
+{
+    margin-top: 5.5cm;
+    margin-left: 1.5cm;
+    display: flex;
+    
+}
+.giveadd3
+{
+    margin-top: 1cm;
+    margin-left: -4.0cm;
+
+}
+.two
+{
+    margin-top: 8cm;
+    margin-left: -14cm;
+    display: flex;
+}
+.one
+{
+    margin-top: 10cm;
+    margin-left: -14cm;
+}
+.three
+{
+    margin-top: 12cm;
+    margin-left: -14.3cm;
+}
+.namein{
+margin-left: 2cm;
+width: 5cm;
+height: 1cm;
+background: transparent;
+border: 1px solid black;
+box-shadow: 3px 3px rgba(0,0,0,1);
+border-radius: 5px;
+color: rgb(143, 76, 76);
+text-align:left;
+}
+.namein:focus
+{
+    border: none;
+    background: white;
+    box-shadow: none;
+    
+}
+.subin{
+margin-left: 2cm;
+width: 12.2cm;
+height: 1cm;
+background: transparent;
+border: 1px solid black;
+box-shadow: 3px 3px rgba(0,0,0,01);
+border-radius: 5px;
+color: rgb(143, 76, 76);
+text-align:left;
+}
+.subin:focus
+{
+    background: white;
+    box-shadow: none;
+    
+}
+.messin{
+margin-left: 2cm;
+width: 12.2cm;
+height: 3cm;
+background: transparent;
+border: 1px solid black;
+box-shadow: 3px 3px rgb(0,0,0);
+border-radius: 5px;
+color: rgb(143, 76, 76);
+text-align:left;
+}
+.messin:focus
+{
+    background: white;
+    box-shadow: none;
+    
+}
+.namee{
+    margin-left: 2cm;
+    font-weight: bolder;
+    font-size: 15px;
+
+}
+/* ::placeholder{
+    
+    color:black;
+    font-size: 15px;
+    text-align: center;
+} */
+.send{
+    margin-top: 13.4cm;
+    margin-left: .5cm;
+}
+.sendi{
+    background:white;
+    padding: 10px;
+    border-radius: 80px;
+  }
+  .sendi:hover{
+    background-color: aqua;
+    cursor: pointer;
+  }
+  
+  

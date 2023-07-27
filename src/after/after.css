@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    padding: auto;
+}
+.body11{
+    width: 100%;
+    background-position:center;
+    background-size: cover;
+    height: 20dvh;
+    background-attachment: fixed;
+    background-color: rgb(144, 193, 71);
+}
+.budy1 h3{
+    background-color: burlywood;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.logo{
+    
+    background-image: url('book1.1.png'); 
+    height:262px;
+    background-position:center;
+    background-size: cover;
+    /* background-color: red; */
+    background-repeat: no-repeat;
+    /* position:fixed; */
+    width: 192px;
+    margin-left: 2cm;
+   
+
+}
+.gallery1{
+    cursor: pointer;
+            border: none;
+            width: 300px;
+            float:left;
+            background:transparent;
+            color:white;
+             margin-left:1.5cm;
+           margin-top: 40PX;
+            /* justify-content: center; */
+            border-radius: 20px;
+            font-size: 13px;
+}
+.gallery1:hover{
+    font-size: 13px;
+                color: red;
+               border: none;
+             background-color: rgba(221, 216, 209, 0.5); 
+             box-shadow: 3px 3px black;
+}
+.desc1{
+    color: red;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    /* margin-left: 1.5cm; */
+    text-align: center;
+    background-color: black;
+    border-radius: 95px;
+    font-weight: bold;
+}
+.desc:hover1{
+background-color: white;
+}
+.aa1{
+    margin-left: 1.5cm;
+}
+
+.affooter  .footer{
+    height: 6.9cm;
+    width: 100%;
+    background-color:burlywood;
+    margin-top: 297cm;
+    /* background-attachment: fixed; */
+    /* position: fixed; */
+    position: relative;
+}
+.affooter .footer .karthi{
+    margin-left: 15.5cm;
+}
+.affooter .footer .copy
+{
+      margin-left: 17cm;
+      margin-top: .7cm;
+      color: black;
+      font-size: 20px;
+      font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    }
+    .affooter.but{
+        margin-left: 12cm;
+        margin-top: .8cm;
+        display: flex;
+        margin-top: .7cm;
+    }
+    .affooter .bottxt1{
+        margin-left: 3.5cm;
+        font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    }
+    .affooter.bottxt1:hover,.affooter.bottxt2:hover,.affooter.bottxt3:hover{
+        font-size: 18px;
+        font-weight: 600;
+        font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    }
+    .affooter.bottxt2{
+        margin-left: 1cm;
+        font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    }
+    .affooter .bottxt3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    margin-left: 1cm;
+}
+.affooter.or{
+    margin-left: 0.9cm;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+}
+.affooter.or2{
+    margin-left: 1cm;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+}
+.affooter.logotxt{
+    display: flex;
+    margin-left: 1cm;
+}
+.affooter.k{
+    margin-top: 1cm;
+    background-color: black;
+    font-size: 30px;
+    font-weight: 800;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: .5cm;
+    padding: 15px; 
+    border-top-left-radius:13px ;
+    border-top-right-radius: 13px;
+    border-bottom-left-radius:23px ;
+    border-bottom-right-radius: 23px;
+    color:white;
+}
+.affooter.a{
+    margin-top: 1cm;
+    background-color: yellow;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    margin-left: 3px;
+    padding: 15px; 
+    font-size: 33px;
+    font-weight: 800;
+    border-top-left-radius:23px ;
+    border-top-right-radius: 23px;
+    border-bottom-left-radius:13px ;
+    border-bottom-right-radius: 13px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: .5cm;
+    
+}
+.affooter.r{
+    margin-top: 1cm;
+    
+    background-color: black;
+    color: white;
+    margin-left: 3px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    padding: 15px;
+    font-size: 33px;
+    font-weight: 800;
+    border-top-left-radius:13px ;
+    border-top-right-radius:13px;
+    border-bottom-left-radius:23px ;
+    border-bottom-right-radius: 23px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: .5cm;
+}
+.affooter.t{
+    margin-top: 1cm;
+    background-color: yellow;
+    color: black;
+    margin-left: 3px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    padding: 15px;
+    font-size: 33px;
+    font-weight: 800;
+    border-top-left-radius:23px ;
+    border-top-right-radius: 23px;
+    border-bottom-left-radius:13px ;
+    border-bottom-right-radius: 13px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: .5cm;
+}
+.affooter.h{
+    
+    background-color:black;
+    color: white;
+    margin-left: 3px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    margin-top: 1cm;
+    padding: 15px;
+    font-size: 33px;
+    font-weight: 800;
+    border-top-left-radius:13px ;
+    border-top-right-radius:13px;
+    border-bottom-left-radius:23px ;
+    border-bottom-right-radius: 23px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: .5cm;
+}
+.affooter.i{
+    background-color: yellow;
+    padding-top: .5cm; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    margin-left: 3px;
+    padding: 18px;
+    margin-top: 1cm;
+    font-size: 33px;
+    font-weight: 800;
+    border-top-left-radius:23px ;
+    border-top-right-radius: 23px;
+    border-bottom-left-radius:13px ;
+    border-bottom-right-radius: 13px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.affooter.homeicon{
+    margin-top: .5cm;
+    margin-left: 17cm;
+}
+.leo button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+.sidebar{
+    background: orangered;
+    width: 5cm;
+    height: 5.5cm;
+    position:absolute;
+    margin-left: 86.9%;
+    margin-top: -1cm;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0px 0px 4px 4px black;
+    border-radius: 10px;
+    
+}
+.sidebar2{
+    background-color:burlywood;
+    width: 4.5cm;
+    height: 4cm;
+    position:absolute;
+    border-radius: 10px;
+    margin-left: 87.6%;
+    margin-top: 1.5cm;
+    box-shadow: 0px 0px 4px 4px black;
+
+}
+.sidebar3{
+    background-color:burlywood;
+    width: 4.5cm;
+    height: 4cm;
+    position:absolute;
+    border-radius: 10px;
+    margin-left: 87.6%;
+    margin-top: 2.7cm;
+    box-shadow: 0px 0px 4px 4px black;
+
+}
+.searchbar1{
+    width: 380px;
+    float: left;
+    margin-left: 1000px;
+    margin-top: -1.6cm;
+    color:white;
+  }
+  .srchin1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;  
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid wheat;
+    border-right: none;
+    margin-top: 13px;
+    font-size: 16px;
+    float:left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    color:white;
+    
+}
+  .srchbtn1{
+      width: 100px;
+      height: 40px;
+      background:black;
+    border: 1px solid wheat;
+    border-left: none;
+    margin-top: 13px;
+    color:white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.srchbtn1:focus{
+    outline: none;
+}
+.srchin1:focus{
+    outline: none;
+}
+.profile{
+    margin-left: 91%;
+    margin-top: -3cm;
+}
+.profilebtn{
+    background: transparent;
+    border: none;
+    
+}
+.profilebtn:hover{
+    border-radius: 50px;
+    background-color: orangered;
+    box-shadow: 3px 3px black;
+    color: white;
+}
+.clsbtn,.clsbtn2
+{
+    width: 100%;
+    height: 1cm;
+    background:transparent;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    /* margin-left: 1cm;*/
+    
+}
+.clsbtn:hover,.clsbtn2:hover{
+    box-sizing: 3px 3px black;
+    background-color:red;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1.5px solid;
+}
+.dd,.dd2{
+    font-size: 25px;
+    width: 100%;
+    border: none;
+    background: transparent;
+}
+.dd:hover,.dd2:hover{
+    background-color: aliceblue;
+    
+}
+.ddd{
+    font-size: 30px;
+    width: 100%;
+    border: none;
+    background: transparent;
+    padding: .3cm;
+    padding: .05cm;
+    margin-top: .1cm;
+    display: flex;
+    padding-left: .8cm;
+}
+.ddd:hover{
+    /* padding: .3cm; */
+    background-color: white; 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: 1.5px solid;
+    padding-bottom: .35cm;
+}
+.deleteacc{
+    width: 15cm;
+    height: 7cm;
+    background-color: rgba(255, 127, 80,.9);
+    box-shadow: 6px 6px black;
+    position: absolute;
+    border-radius:25px;
+    margin-left: 12cm;
+    margin-top: 4cm;
+}
+.deltxt{
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;  
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: .3cm;
+    padding-top: .3cm;
+    border-bottom: 5px solid;
+    
+}
+.nterroll{
+    border-radius: 10px;
+    border: 2px solid;
+    background: transparent;
+    width: 5cm;
+    box-shadow: 3px 3px black;
+    height: 1cm;
+    margin-left: 6.2cm;
+    margin-top: -.9cm;
+    position: absolute;
+}
+.nterpass{
+    border-radius: 10px;
+    border: 2px solid;
+    background: transparent;
+    width: 5cm;
+    box-shadow: 3px 3px black;
+    height: 1cm;
+    margin-left: 6.2cm;
+    margin-top: -.9cm;
+    position: absolute;
+}
+.nterroll:focus,.nterpass:focus{
+    background-color: white;
+    width:7cm;
+
+}
+.okbtn{
+    width: 5cm;
+    height: 1cm;
+    font-size: x-large;
+    margin-left: 2cm;
+    background-color: blue;
+    margin-top: .5cm;
+    border: none;
+    border-radius: 17px;
+    font-weight: 700;
+    
+}
+.clsbtn4{
+    width: 5cm;
+    height: 1cm;
+    border: none;
+    border-radius: 17px;
+    font-size: x-large;
+    margin-left: 1cm;
+    font-weight: 700;
+    background-color: red;
+    margin-top: .5cm;
+}
+.nterroll::placeholder,.nterpass::placeholder{
+    font-size: 20px;
+    color:white;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: .2cm;
+}
+.proll,.ppass{
+    font-size:20px;
+    font-weight: 700;
+    margin-left: 2.3cm;
+    margin-top: .5cm;
+    width: 4.1cm;
+}
+.bookdetails{
+    display: none;
+}
+.h6{
+    font-size: 27px;
+    color:red;
+}
+h7{
+    font-size: x-large;
+    color:white;
+}
+.flex{
+    display:flex;
+    margin-left: 2cm;
+    margin-top: .7cm;
+}
+.desic{
+    padding: .5cm;
+}
+.bokgallery{
+    padding-left: .5cm;
+    
+}
+.middle{
+    background-color:lightcyan;
+    max-height: 1000cm;
+    overflow-y:auto; 
+}
+.affooter1{
+    margin-bottom: 0%;
+}
+.fedbckform{
+    display: none;
+}

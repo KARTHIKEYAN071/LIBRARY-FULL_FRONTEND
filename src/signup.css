@@ -1,0 +1,22 @@
+.form
+{
+    margin-left: 67%;
+    margin-bottom: 60%;
+    padding-left: .5cm;
+    position: absolute;
+    /* padding-right: 2cm; */
+    color:rgb(59, 59, 242);
+    background-color: rgb(255, 255, 255);
+    width:30%;
+    
+}
+.main{
+    background-image: url(wall4.jpg);
+    background-position: center;
+  background-size: cover;
+    width: 28.5cm;
+    border: none; 
+    height: 20cm;
+    position: fixed;
+
+}

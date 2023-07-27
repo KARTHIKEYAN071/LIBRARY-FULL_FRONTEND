@@ -1,0 +1,53 @@
+.lab1{
+    display: flex;
+    font-size: 20px;
+
+}
+.tabcon{
+    font-size: 25px;
+    width: 100%;
+    margin-top: .2cm;
+}
+.tabcon:hover{
+    color:black;
+    background-color: white;
+    border-radius: 15px;
+    cursor:default;
+
+}
+.div{
+            border: none;
+            width: 100;
+            float:left;
+            background-color: rgb(255, 153, 0);
+            color:white;
+             margin-left:.1cm;
+           margin-top: 40px;
+            border-radius: 20px;
+            font-size: 13px;
+            padding: .5cm;
+            position: relative;
+            /* margin-bottom: 1cm; */
+            border: none;
+            text-align: center;
+        }
+        .div:hover{
+    box-shadow: 8px 8px 8px 8px black;
+    
+}
+
+.showans{
+    max-height: 100cm;
+    background-color: rgb(71, 193, 161);
+    width: 100%;
+    overflow-y:auto; 
+    /* border: 5px solid black; */
+    /* background-position:center; */
+    /* background-size: cover; */
+    /* height: 20dvh; */
+    /* background-attachment: fixed; */
+
+}
+.div::after{
+    margin-left: 1cm;
+}
